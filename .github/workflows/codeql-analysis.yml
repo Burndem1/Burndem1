@@ -1,4 +1,4 @@
-# For most projects, this workflow file will not need changing; you simply need
+#burndem/GitHub For most projects, this workflow file will not need changing; you simply need
 # to commit it to your repository.
 #
 # You may wish to alter this file to override the set of languages analyzed,
@@ -9,30 +9,30 @@
 # the `language` matrix defined below to confirm you have the correct set of
 # supported CodeQL languages.
 #
-name: "CodeQL"
+name: "CodeQL"coding+
 
-on:
+on: termux metasploit
   push:
-    branches: [ main ]
+    branches: [ mfsconsolemain ]
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ main ]
   schedule:
     - cron: '40 3 * * 5'
 
-jobs:
-  analyze:
-    name: Analyze
+jobs: programming python
+  analyze:pkg update
+    name: Analyze codes
     runs-on: ubuntu-latest
-    permissions:
-      actions: read
-      contents: read
-      security-events: write
+    permissions: manual
+      actions: read coding
+      contents: read c++
+      security-events: write GitHub
 
-    strategy:
+    strategy:codes
       fail-fast: false
-      matrix:
-        language: [  ]
+      matrix: metasploit
+        language: [ python ]
         # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python', 'ruby' ]
         # Learn more about CodeQL language support at https://git.io/codeql-language-support
 
